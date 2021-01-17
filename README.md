@@ -6,9 +6,9 @@
 
 <div id='badges' align='center'>
 
-[![Actions Status](https://github.com/vartanbeno/go-reddit/workflows/tests/badge.svg)](https://github.com/vartanbeno/go-reddit/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/vartanbeno/go-reddit)](https://goreportcard.com/report/github.com/vartanbeno/go-reddit)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/vartanbeno/go-reddit/reddit)](https://pkg.go.dev/github.com/vartanbeno/go-reddit/reddit)
+[![Actions Status](https://github.com/derektrc/go-reddit/workflows/tests/badge.svg)](https://github.com/derektrc/go-reddit/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/derektrc/go-reddit)](https://goreportcard.com/report/github.com/derektrc/go-reddit)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/derektrc/go-reddit/reddit)](https://pkg.go.dev/github.com/derektrc/go-reddit/reddit)
 
 </div>
 
@@ -24,16 +24,16 @@ You can view Reddit's official API documentation [here](https://www.reddit.com/d
 
 ## Install
 
-To get a specific version from the list of [versions](https://github.com/vartanbeno/go-reddit/releases):
+To get a specific version from the list of [versions](https://github.com/derektrc/go-reddit/releases):
 
 ```sh
-go get github.com/vartanbeno/go-reddit@vX.Y.Z
+go get github.com/derektrc/go-reddit@vX.Y.Z
 ```
 
 Or for the latest version:
 
 ```sh
-go get github.com/vartanbeno/go-reddit
+go get github.com/derektrc/go-reddit
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ Make sure to have a Reddit app with a valid client id and secret. [Here](https:/
 ```go
 package main
 
-import "github.com/vartanbeno/go-reddit/reddit"
+import "github.com/derektrc/go-reddit/reddit"
 
 func main() {
     withCredentials := reddit.WithCredentials("id", "secret", "username", "password")

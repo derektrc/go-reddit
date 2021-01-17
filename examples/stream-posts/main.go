@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vartanbeno/go-reddit/reddit"
+	"github.com/derektrc/go-reddit/reddit"
 )
 
 var ctx = context.Background()
