@@ -532,6 +532,9 @@ type ListOptions struct {
 	// as the anchor point of the list. Only items
 	// appearing before it will be returned.
 	Before string `url:"before,omitempty"`
+
+	// One of: hour, day, week, month, year, all.
+	Time string `url:"t,omitempty"`
 }
 
 // ListSubredditOptions defines possible options used when searching for subreddits.
